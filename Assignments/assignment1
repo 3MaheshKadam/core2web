@@ -1,0 +1,106 @@
+# a= int(input("enter a number :"))
+# b =int(input("enter second number :"))
+# if(a >b):
+#     print('a is greater than b')
+# else:
+#     print("b is greater than a")
+
+
+# Q2
+
+# num = int(input("Enter a number"))
+# if(num>0):
+#     print("num is positive")
+# elif(num==0):
+#     print("The num is equal to zero")
+# else:
+#     print("num is a negative no")
+
+
+# # Q3
+
+
+# a = int(input("Enter a num to check for positive or negative"))
+# if(a%2==0):
+#     print("the num is even number")
+# else:
+#     print("the odd number")
+
+
+# Q4
+
+# a = int(input("enter a num"))
+# if(a%5==0):
+#     print("The num is divisible by 5")
+
+# Q5
+
+# a = int(input("Enter a num in 0 to 6 to display week days :"))
+# if (a ==0):
+#     print("monday")
+# elif(a ==1):
+#     print("tuesday")
+# elif(a==2):
+#     print("wednesdy")
+# elif(a==3):
+#     print("thursday")
+# elif(a==4):
+#     print("friday")
+# elif(a==5):
+#     print("saturday")
+# else:
+#     print("sunday")
+
+# Q6
+
+# a = input("enter a alphabet ")
+# if chr(a>=chr(65)): 
+#     print("num is character",a)
+
+# alternate way
+'''
+charach = input("enter to check is alphabet")
+if len(charach)==1 and chr(('a'<=charach <='z' or 'A'<=charach <='Z')) :
+    print("is charach")
+else:
+    print("no character")
+'''
+
+'''
+# Q7
+a = int(input("Enter number"))
+if(a==1 or a==3 or a==5 or a== 6 or a==8 or a==10 or a==12):
+    print("you entered a month no with 31 days")
+elif(  a== 4 or a==7 or a==9 or a==11):
+    print("You have entered a month with 30 days")
+elif(a==2):
+    print("29 days month")
+else:
+    print("enter a valid num between 1 to 12")
+'''
+'''
+q8
+a = int(input("enter a num to check greater than 10"))
+b =10
+if (a>b):
+    print("a is greater than b")
+else:
+    print("b is greater tah a")
+'''
+
+# # Q9
+# chara = input("Enter a char :")
+# if (chara == 'a'  or chara == 'e ' or chara == 'i ' or chara =='o' or chara =='u' or chara == 'A'
+#       or chara == 'E ' or chara == 'I ' or chara =='O' or chara =='U'):
+#     print("is vovel")
+# else:
+#     print("consnent")
+
+
+# Q10
+year = int(input("Enter a number"))
+if (year %4==0 and year %100!=0 )or year%400==0:
+    print("leap year")
+else:
+    print("non lear year")
+

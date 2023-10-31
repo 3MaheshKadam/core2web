@@ -1,0 +1,91 @@
+# # # print("hellp py")
+# # # x = 10
+# # # y = 20
+# # # result = x +y
+# # # print("%d is the addition of values x and y"%result)
+# # # print( "{} is the outpuut".format(result))
+
+# # # a = int(input(" ENter a numerator :"))
+# # # a =a // int(input("Enter denominator :"))
+# # # print (a)
+
+# # a,b,c = None ,None, None
+# # a =input()
+# # b = input()
+# # c = input()
+# # list1 = [a,b,c]
+# # print(list1)
+# # print(type(list1[0]))
+
+# a = int(input("Enter a num data :"))
+# b = int(input("Enter a num data :"))
+# c = complex(a,b)
+# set_a ={a,b,c}
+# print(set_a)
+
+# input()
+# a=int(input("Enter the data"))
+# b=int(input("Enter the data"))
+# c=complex(b,a)
+# print(a+b+float(input("Entre the data")))
+
+
+
+# ////////////////////////////////////////////pracical no 2//////////////////////////////////
+# ///////////////////////////////////////////////////////////////////////////////////////////
+
+# code1
+# int x= 10
+# int y = 10
+# print(a+b)
+# error int cha ahe invalid syntax ani error noo 2 a is not defined
+
+#code2
+# x =int (input("enter a number"))
+# y = int (input("enter a number"))
+# print(x+y)
+#     print(name)
+#error indentation and name is not defined
+
+# code 3
+# x = input()      #default input is string
+# if x>0:          #if number or string  is entered heree it will give type error
+#     print(x)
+#type error (not support between instance of 'str' and 'int')
+
+
+# # code no 4'
+# x = int (input("Enter a number :"))
+# if (x>0):
+#     print(x)
+#     if (x>0):
+#         print(x)
+#no error here both the conditions are same hence if the 1st condition is wrong then it will not 
+#execute both the conditions and if 1st is true then both the conditions will run
+
+
+# # code no 5
+# x = int (input("enter a number"))
+# if (x>0):
+#     print(x,"line 1")
+# if (x==0):
+#     print(x,"line2")
+# if (x<0):
+#     print(x,"line 3")
+# code will check all the if conditions doesnt matter if the very first conditon is true or falue 
+# it will iterate till the end
+
+# code no 6
+# x = int (input("Enter a no"))
+# if(x>0):
+#     print(x)
+# else(x==0)
+#     print(x)
+# syntax error 
+
+
+
+# for i in range(3):
+#     for h in range(3):
+#         print("a",end=" ")
+# print(" ")
