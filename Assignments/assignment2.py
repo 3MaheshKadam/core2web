@@ -6,11 +6,11 @@
 # else:
 #     print("Num is not divisible by both 4 and 5")
 '''
-# Q2 -- verification of an equilateral trinagle
+# Q2 -- verification of an equilateral trinagle 
 a = int(input("Enter an angle "))
 b = int(input("Enter another angle"))
 c = int(input("Enter last angle"))
-if(a!=90 and b!=90 and c!=90):
+if(a!=60 and b!=60 and c!=60):
     print("not an equilateral trangle")
 else:
     print("its an eeuliateral triangle !!!")

@@ -89,3 +89,55 @@
 #     for h in range(3):
 #         print("a",end=" ")
 # print(" ")
+
+# list =[1,2,3,4,5,6,7,8,9,10]
+# for i in list[1:10]:
+#         print(i)
+
+'''
+# for i in list[0:15]: // for looop will itrate till lant index without giving error as index 15 is out-of-bound
+#     print(i)
+'''
+
+# for i in list[0:1]:
+#     print(i)
+'''
+for i in list[10:1]:  #no output as step value is not given
+    print(i)
+'''
+'''
+
+list =[1,2,3,4,5,6,7,8,9,10]
+
+# for i in list[10:3:-1]:     #10 to 5
+#     print(i ,end=" ")
+
+
+for i in list[10:4:-1]:     #10 to 5skip . and 6
+    print(i ,end=" ")
+# for i in list[10:5:-1]:     #10 to 7
+#     print(i ,end=" ")
+'''
+
+'''
+list =[1,2,3,4,5,6,7,8,9,10]
+
+for i in list[10:8:-1]:     
+    print(i ,end=" ")
+'''
+'''
+finally i found it logic for reverse for loop if stepvalue is negative 1 then dont
+consider following 2 conditions :
+along with 
+and the rightmost number dont count them both rest of right hand part is your answer
+'''
+# eg1
+'''
+list =[1,2,3,4,5,6,7,8,9,10]
+
+for i in list[10:1:-1]:     #[leave 1 and the rightmost 2] now 3 ....10 are nos in reverse way 
+    print(i ,end=" ")
+                            #  hence outpuut is 10 ,9,8,7,6,6,5,4,3
+'''
+
+# now lest experiment with whhile loops
