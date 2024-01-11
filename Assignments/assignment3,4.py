@@ -66,20 +66,20 @@ else:
 # for i in range(1 , 100):
 #     if(i%7==0 and i%3!=0):
 #         print(i)
-'''
-start = input("Enter starting ASCII value: ")
-end = input("Enter ending ASCII value: ")
+# # '''
+# start = input("Enter starting ASCII value: ")
+# end = input("Enter ending ASCII value: ")
 
-# Convert input strings to integers
-start = ord(start)
-end = ord(end)
+# # Convert input strings to integers
+# start = ord(start)
+# end = ord(end)
 
-if 65 <= start <= 90 and 65 <= end <= 90:
-    for i in range(start, end):
-        print("The character of ASCII value", i, "is", chr(i))
-else:
-    print("Enter correct ASCII values in the range A-Z.")
-'''
+# if 65 <= start <= 90 and 65 <= end <= 90:
+#     for i in range(start, end):
+#         print("The character of ASCII value", i, "is", chr(i))
+# else:
+#     print("Enter correct ASCII values in the range A-Z.")
+# '''
 
 # start = -7
 # end = 8
@@ -89,10 +89,80 @@ else:
 #     if i > 0:
 #         print(i)
 
-start = -7
-end = 8
+# start = -7
+# end = 8
 
-print("negative numbers in the range from", start, "to", end, "are:")
-for i in range(start, end + 1):
-    if i < 0:
-        print(i)
+# print("negative numbers in the range from", start, "to", end, "are:")
+# for i in range(start, end + 1):
+#     if i < 0:
+#         print(i)
+
+# num =0
+# for i in range(4):
+#     for j in range(4):
+#         num+=1
+#         print(num,end=" ")
+#     print()
+
+# num=1
+# for i in range(3):
+#     for j in range(3):
+#         print(num,end=" ")
+#     num +=1
+#     print()
+
+# num =1
+# for i in range(3):
+#     for j in range(1,4):
+#         print(num, end =" ")
+#         num +=1
+    
+#     print()
+#     num +=1
+
+# anum = 1
+
+# for i in range(4):
+#     bnum = anum
+#     for j in range(4):
+#         print(bnum, end=' ')
+#         bnum += 1
+#     print()
+#     anum += 1
+
+# for i in range(4):
+#     for j in range(6):
+#         if j%2!=0:
+#             print(j,end=" ")
+#     print()
+
+# num =0
+# for i in range(3):
+#     for j in range(6):
+#         num +=1
+#         if num%2!=0:
+#             print(num,end=" ")
+#     print()
+
+
+# num1 =0
+# for i in range(3):
+#     num2=num1
+#     # num2=0
+#     for j in range(3):
+#         num2+=1
+#         print(num2,end=" ")
+#     print()
+#     num1+=1
+
+
+
+# num1 =0
+# for i in range(3):
+#     num2=num1
+#     for j in range(6):
+#         num2 +=1
+#         if num2%2!=0:
+#             print(num2,end=" ")
+#     print()
+#     num1+=1
