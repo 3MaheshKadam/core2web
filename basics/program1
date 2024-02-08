@@ -141,3 +141,4 @@ for i in list[10:1:-1]:     #[leave 1 and the rightmost 2] now 3 ....10 are nos 
 '''
 
 # now lest experiment with whhile loops
+
